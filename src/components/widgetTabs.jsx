@@ -31,7 +31,7 @@ function WidgetTabs({ data }) {
         try {
           
           const response = await axios.get(
-            `http://localhost:8000/categories/${tabActive}`
+            `https://my-json-server.typicode.com/Nishantonic/fake-api/categories/${tabActive}`
           );
           const category = response.data;
 

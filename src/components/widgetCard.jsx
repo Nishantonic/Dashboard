@@ -9,11 +9,14 @@ const WidgetCard = ({
   categoryId,
 }) => {
 
+  
+
+
   const handleClick = async () => {
     try {
      
       const response = await axios.get(
-        `http://localhost:8000/categories/${categoryId}`
+        `https://my-json-server.typicode.com/Nishantonic/fake-api/categories/${categoryId}`
       );
       const category = response.data;
 

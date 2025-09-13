@@ -10,7 +10,9 @@ const Dashboard = () => {
   const [loading, setLoading] = useState(true);
   const [error, setError] = useState(null);
 
-  const Base_URL = "http://localhost:8000/categories";
+ const Base_URL =
+    "https://my-json-server.typicode.com/Nishantonic/fake-api/categories";
+
 
   const toggle = () => setOpen(!Open);
 
