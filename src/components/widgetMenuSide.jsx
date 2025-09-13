@@ -13,13 +13,13 @@ const SidebarComponent = ({ data }) => {
 
   const showModal = () => {
     if (modalRef.current) {
-      modalRef.current.style.display = "flex"; // flex so content centers nicely
+      modalRef.current.style.display = "flex"; 
     }
   };
 
   return (
     <div>
-      {/* 🔹 Button */}
+    
       <button
         onClick={showModal}
         type="button"
@@ -28,19 +28,19 @@ const SidebarComponent = ({ data }) => {
         <IoMdAdd className="h-5 w-5 " /> Add Widget
       </button>
 
-      {/* 🔹 Modal Overlay */}
+  
       <div
         style={{ display: "none" }}
         ref={modalRef}
         className="fixed inset-0 z-10 bg-black bg-opacity-40 flex justify-end"
-        onClick={hideModal} // close if clicked outside
+        onClick={hideModal} 
       >
-        {/* 🔹 Modal Content */}
+  
         <div
           className="h-full w-96 bg-white overflow-y-scroll"
-          onClick={(e) => e.stopPropagation()} // prevent close if clicked inside
+          onClick={(e) => e.stopPropagation()} 
         >
-          {/* Header */}
+          
           <nav className="flex items-center justify-between px-6 h-10 w-auto bg-gray-700 text-white font-semibold">
             <h2>Add Widget</h2>
             <button onClick={hideModal} type="button">
@@ -52,7 +52,7 @@ const SidebarComponent = ({ data }) => {
             Personalise your Dashboard by adding the following widget
           </h2>
 
-          {/* Body */}
+         
           <div className="flex flex-col justify-between gap-y-4 px-4 pb-6">
             <WidgetTabs data={data} />
           </div>
