@@ -20,11 +20,8 @@ step 2 - Go to the project directory :
   
 step 3 - Install dependencies : 
          npm install
-
-step 4 - Start the JSON server : 
-         npx json-server --watch  data/db.json --port 8000
   
-step 5 - Start the server : 
+step 4 - Start the server : 
          npm run dev
   
 #Feedback
