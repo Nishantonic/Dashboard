@@ -1,0 +1,112 @@
+{
+  "categories": [
+    {
+      "id": "CSPM",
+      "name": "CSPM Executive Dashboard",
+      "widgets": [
+        {
+          "id": "306ddb91-41b2-4ed9-b414-8f5a6f9176c1",
+          "title": "Cloud Accounts",
+          "text": "Securely manage, access, and synchronize your digital assets with ease through our comprehensive cloud accounts platform.",
+          "image": "https://quickchart.io/chart?c={type:'doughnut',data:{labels:['Connected','Not Connected'],datasets:[{data:[2,2]}]}}"
+        },
+        {
+          "id": "cd9aaa02-dcaf-4285-a77e-14c968589237",
+          "title": "Cloud Accounts Risk Management",
+          "text": "Effectively identify, assess, and mitigate risks in cloud accounts to ensure robust security and compliance.",
+          "image": "https://quickchart.io/chart?c={type:'doughnut',data:{labels:['Failed','Warning','Not Available','Passed'],datasets:[{data:[3689,581,36,7253]}]}}"
+        },
+        {
+          "id": "new-1",
+          "title": "Compliance Status",
+          "text": "Overview of compliance across all cloud accounts.",
+          "image": "https://quickchart.io/chart?c={type:'pie',data:{labels:['Compliant','Non-Compliant'],datasets:[{data:[80,20]}]}}"
+        }
+      ]
+    },
+    {
+      "id": "CWPP",
+      "name": "CWPP Dashboard",
+      "widgets": [
+        {
+          "id": "f8f650f1-8df3-4fed-b995-614b774f25dc",
+          "title": "Top 5 namespace specific alerts",
+          "text": "No Graph data available!",
+          "image": "https://cdn-icons-png.flaticon.com/512/1827/1827504.png"
+        },
+        {
+          "id": "a2505d4e-dd32-4599-a0a9-1f7634cf159c",
+          "title": "Workload Alerts",
+          "text": "Receive real-time workload alerts to monitor performance and prevent potential bottlenecks before they impact your operations.",
+          "image": "https://cdn-icons-png.flaticon.com/512/565/565547.png"
+        },
+        {
+          "id": "new-2",
+          "title": "Active Vulnerabilities",
+          "text": "Track the number of active vulnerabilities in workloads.",
+          "image": "https://quickchart.io/chart?c={type:'bar',data:{labels:['Critical','High','Medium','Low'],datasets:[{data:[15,50,120,80]}]}}"
+        }
+      ]
+    },
+    {
+      "id": "Image",
+      "name": "Registry Scan",
+      "widgets": [
+        {
+          "id": "fc3b2c16-27ad-4da0-8bca-4b5ea3c73bd7",
+          "title": "Image Risk Assessment",
+          "text": "Conduct thorough image risk assessments to identify vulnerabilities and ensure the security of your visual assets.",
+          "image": "https://quickchart.io/chart?c={type:'bar',data:{labels:['Critical','High','Medium','Low'],datasets:[{data:[10,200,800,460]}]}}"
+        },
+        {
+          "id": "d66a5caa-d19d-435c-8ef0-456652c2b0ae",
+          "title": "Image Security Issues",
+          "text": "Address and resolve image security issues to protect your visual assets from unauthorized access and potential breaches.",
+          "image": "https://quickchart.io/chart?c={type:'bar',data:{labels:['Critical','High'],datasets:[{data:[2,5]}]}}"
+        },
+        {
+          "id": "new-3",
+          "title": "Registry Scan Summary",
+          "text": "Overview of scanned vs unscanned images.",
+          "image": "https://quickchart.io/chart?c={type:'doughnut',data:{labels:['Scanned','Unscanned'],datasets:[{data:[75,25]}]}}"
+        }
+      ]
+    },
+    {
+      "id": "Ticket",
+      "name": "Ticket Management",
+      "widgets": [
+        {
+          "id": "07722d16-870b-4bc4-9d73-a6930a2ecc9a",
+          "title": "Pending Tickets",
+          "text": "Track open and unresolved tickets.",
+          "image": "https://cdn-icons-png.flaticon.com/512/1827/1827504.png"
+        },
+        {
+          "id": "new-4",
+          "title": "Resolved Tickets",
+          "text": "Tickets resolved in the last 7 days.",
+          "image": "https://quickchart.io/chart?c={type:'line',data:{labels:['Mon','Tue','Wed','Thu','Fri','Sat','Sun'],datasets:[{label:'Resolved',data:[5,7,6,8,10,4,9]}]}}"
+        }
+      ]
+    },
+    {
+      "id": "IAM",
+      "name": "Identity & Access Management",
+      "widgets": [
+        {
+          "id": "new-5",
+          "title": "User Roles",
+          "text": "Distribution of IAM user roles in the system.",
+          "image": "https://quickchart.io/chart?c={type:'pie',data:{labels:['Admin','Editor','Viewer'],datasets:[{data:[5,15,30]}]}}"
+        },
+        {
+          "id": "new-6",
+          "title": "Failed Logins",
+          "text": "Track failed login attempts across users.",
+          "image": "https://quickchart.io/chart?c={type:'bar',data:{labels:['User1','User2','User3'],datasets:[{data:[3,7,2]}]}}"
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,14 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer components {
+  .bg-color {
+    @apply bg-gray-100;
+  }
+}
+
+/* optional custom scrollbar hide */
+::-webkit-scrollbar {
+  display: none;
+}
